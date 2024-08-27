@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: ecommerce
+  datasource:
+    url: jdbc:mysql://localhost:3333/ecommerce
+    username: root
+    password: 1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        format_sql: true
+#    show-sql: true
+
+server:
+  port: 9000
+
+#logging:
+#  level:
+#    org.hibernate.type: debug
+#    p6spy: info
