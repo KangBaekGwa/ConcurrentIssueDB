@@ -37,8 +37,8 @@ public class Item {
     @Column(nullable = false, name = "stock")
     private Long stock;
 
-    @Version
-    private Long version;
+//    @Version
+//    private Long version;
 
     public void changeStock(Long amount){
         this.stock = this.stock - amount;

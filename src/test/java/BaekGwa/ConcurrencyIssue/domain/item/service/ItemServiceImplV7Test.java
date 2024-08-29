@@ -16,10 +16,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ItemServiceImplV5Test {
+class ItemServiceImplV7Test {
 
     @Autowired
-    private ItemServiceImplV5 itemService;
+    private ItemServiceImplV7 itemService;
 
     @Autowired
     private ItemRepository itemRepository;
